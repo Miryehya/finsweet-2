@@ -3,25 +3,64 @@
     width: 100%;
     padding: 0px 20px;
   }
+  .banner .left .lorem-1 {
+    min-width: 50%;
+    margin: 20px 0px;
+  }
+  .a-tags{
+    display: none;
+  }
 }
 @media (max-width: 768px) {
   .container {
     width: 100%;
+  }
+  .banner .left .lorem-1 {
+    min-width: 50%;
+    margin: 20px 0px;
+  }
+  .a-tags{
+    display: none;
   }
 }
 @media (max-width: 992px) {
   .container {
     width: 100%;
   }
+  .banner .left .lorem-1 {
+    min-width: 50%;
+    margin: 20px 0px;
+  }
+  .a-tags{
+    display: none;
+  }
+  .banner{
+    display: flex;
+    flex-direction: column;
+  }
+  .right img{
+    width: 100%;
+    margin: 50px auto;
+  }
+  .h1{
+  min-width: 100%;
+  }
 }
 @media (max-width: 1200px) {
   .container {
     width: 100%;
+  }
+  .banner .left .lorem-1 {
+    min-width: 50%;
+    margin: 20px 0px;
   }
 }
 @media (max-width: 1400px) {
   .container {
     width: 100%;
   }
+  .banner .left .lorem-1 {
+    min-width: 50%;
+    margin: 20px 0px;
+  }
 }
-    
