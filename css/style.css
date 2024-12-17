@@ -12,7 +12,9 @@
 .main-header {
   display: flex;
   justify-content: space-between;
-  padding: 20px 50px;
+  padding: 20px 70px;
+  width: 80%;
+  margin: auto;
 }
 nav {
   display: flex;
@@ -23,8 +25,39 @@ nav .a-tags a {
   font-size: 18px;
   color: black;
 }
-nav .icon a{
-    font-size: 22px;
-    color: black;
-    margin-left: 10px;
+nav .icon a {
+  font-size: 22px;
+  color: black;
+  margin-left: 10px;
+}
+main .banner {
+  width: 60%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.banner .left .lorem-1 {
+  width: 50%;
+  margin: 20px 0px;
+}
+.banner .left .h1 {
+  margin: 20px 0px;
+  font-size: 40px;
+  width: 50%;
+  text-align: justify;
+}
+.banner .left .banner-input {
+  padding: 15px 20px;
+  border: 0px;
+  background-color: #F4F2FF;
+}
+.banner .left .banner-button {
+  padding: 15px 30px;
+  text-align: center;
+  background-color: #503ae7;
+  color: white;
+  border: 0px;
+}
+.input-button {
+  display: flex;
 }
