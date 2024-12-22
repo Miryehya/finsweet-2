@@ -54,7 +54,7 @@ main .banner {
 .banner .left .banner-button {
   padding: 15px 30px;
   text-align: center;
-  background-color: #503ae7;
+  background-color: #513ae7;
   color: white;
   border: 0px;
 }
@@ -82,5 +82,49 @@ main .banner {
 }
 .box-1 .writing{
   font-size: 28px;
+}
+.box-2{
+  display: flex;
+  width: 70%;
+  height: 500px;
+  margin: 70px auto;
+}
+.profile-2{
+  background-image: url("../img/man-in-beige-suit-jacket-sitting-on-chair-6878173.png");
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box-2 .profile-2 .youtube{
+background-color: #503AE7;
+width: 200px;
+height: 75px;
+margin-top: 18vw;
+margin-left: 19vw;
+}
+.box-2 .profile-2 .profile-2-a{
+color: white;
+text-align: center;
+font-size: 19px;
+display: flex;
+gap: 10px;
+padding-top: 25px;
+padding-left: 10px;
+}
+.box-2 .profile-2 .youtube i{
+  padding-top: 5px;
+}
+.writing-2 h2{
+  font-size: 32px;
+  width: 30%;
+  margin: 30px auto;
+  margin-left: 9vw;
 
+}
+.writing-2 p{
+  font-size: 20px;
+  width: 50%;
+  margin: auto;
+  margin-left: 9vw;
 }
