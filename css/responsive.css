@@ -1,0 +1,36 @@
+@media (max-width: 1024px) {
+  .testimonial {
+    flex: 1 1 calc(50% - 40px);
+  }
+}
+
+@media (max-width: 768px) {
+  .testimonial {
+    flex: 1 1 100%;
+  }
+
+  .arrow-left,
+  .arrow-right {
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+
+  header input[type="email"] {
+    width: 90%;
+  }
+
+  header button {
+    width: 90%;
+  }
+}
+
+@media (max-width: 480px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+}
